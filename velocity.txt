@@ -1,0 +1,13 @@
+var a;
+var t;
+var v0;
+var result;
+procedure VEL;
+begin
+	read a;
+	read t;
+	read v0;
+	result := 0;
+	result := (a * t) + v0;
+	write result;
+end.

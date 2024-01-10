@@ -1,0 +1,5 @@
+var a;const b:=3;const c:=5;procedure m;var d;var mo;const fz:=6155;const bz:=8055;const fzbz:=61585;var fbf;var ff;var bf;
+begin def m{var dn;begin dn:=a;while dn-d>=0 do dn:=dn-d;mo:=dn;return end};
+begin read a; while a>0 do begin fbf:=0;ff:=0;bf:=0;d:=b*c;call m;if mo==0 then begin write fzbz;fbf:=1;end;
+if fbf==0 then begin d:=b;call m;if mo==0 then begin write fz;ff:=1;end;d:=c;call m;if mo==0 then begin write bz;bf:=1;end;
+if ff==0 then if bf==0 then write a end;a:=a-1 end;end end.
